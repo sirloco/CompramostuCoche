@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityCatalogo">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="129dp"
+        android:layout_height="363dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.146">
+
+        <RadioButton
+            android:id="@+id/rbCoche1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Coche1" />
+
+        <RadioButton
+            android:id="@+id/rbCoche2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coche2" />
+
+        <RadioButton
+            android:id="@+id/rbCoche3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coche3" />
+
+        <RadioButton
+            android:id="@+id/rbCoche4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coche4" />
+
+        <RadioButton
+            android:id="@+id/rbCoche5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coche5" />
+
+        <RadioButton
+            android:id="@+id/rbCoche6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coche6" />
+
+        <RadioButton
+            android:id="@+id/rbMoto5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/moto5" />
+
+        <RadioButton
+            android:id="@+id/rbMoto4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/moto4" />
+
+        <RadioButton
+            android:id="@+id/rbMoto3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/moto3" />
+
+        <RadioButton
+            android:id="@+id/rbMoto2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/moto2" />
+
+        <RadioButton
+            android:id="@+id/rbMoto1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/moto1" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bcomprar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="434dp"
+        android:text="@string/comprar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/radioGroup"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

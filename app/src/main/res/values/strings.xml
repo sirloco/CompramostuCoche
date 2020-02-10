@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CompramostuCoche</string>
+    <string name="edad">Edad</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="Coche1">Coche 1</string>
+    <string name="moto1">Moto 1</string>
+    <string name="moto2">Moto 2</string>
+    <string name="moto3">Moto 3</string>
+    <string name="moto4">Moto 4</string>
+    <string name="moto5">Moto 5</string>
+    <string name="coche2">Coche 2</string>
+    <string name="coche3">Coche 3</string>
+    <string name="coche4">Coche 4</string>
+    <string name="coche5" >Coche 5</string>
+    <string name="coche6">Coche 6</string>
+    <string name="comprar">Comprar</string>
+    <string name="cero">0</string>
+    <string name="enviar">Enviar</string>
+    <string name="catalogo">Catalogo</string>
+    <string name="registrar">Registrar</string>
+</resources>
